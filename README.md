@@ -1,6 +1,6 @@
 # installation
 ```
-git clone https://github.com/dootss/whatsmeow-status.git#
+git clone https://github.com/dootss/whatsmeow-status.git
 cd whatsmeow-status
 go mod tidy
 ```
