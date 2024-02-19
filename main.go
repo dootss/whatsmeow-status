@@ -50,8 +50,8 @@ func GetEventHandler(client *whatsmeow.Client) func(interface{}) {
                     statusMessage := &waProto.Message{
                         ExtendedTextMessage: &waProto.ExtendedTextMessage{
                             Text:           proto.String(statusText),
-                            BackgroundArgb: proto.Uint32(0xFFFFFFFF), // Example ARGB color (black)
-                            TextArgb:       proto.Uint32(0xFF000000), // Example ARGB color (white)
+                            BackgroundArgb: proto.Uint32(0xFF000000), // Example ARGB color (black)
+                            TextArgb:       proto.Uint32(0xFFFFFFFF), // Example ARGB color (white)
                             Font:           waProto.ExtendedTextMessage_SYSTEM.Enum(), // Example font
                         },
                     }
