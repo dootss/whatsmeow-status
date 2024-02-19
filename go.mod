@@ -1,4 +1,4 @@
-module github.com/Paguiar735/whatsmeow-quickstart
+module github.com/dootss/whatsmeow-status
 
 go 1.21
 
